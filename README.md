@@ -1,3 +1,3 @@
-# bluetooth-chat
+# bluetooth-chat-remote
 
-Desktop companion software to the CF client.
+Remote connection device for the CF client.
