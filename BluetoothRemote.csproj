@@ -20,16 +20,22 @@
     <RootNamespace>ThirtyTwoFeet</RootNamespace>
     <StartupObject>
     </StartupObject>
-    <FileUpgradeFlags>0</FileUpgradeFlags>
-    <SccProjectName>SAK</SccProjectName>
-    <SccLocalPath>SAK</SccLocalPath>
-    <SccAuxPath>SAK</SccAuxPath>
-    <SccProvider>SAK</SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
     <FormFactorID>
     </FormFactorID>
     <UpgradeBackupLocation>
     </UpgradeBackupLocation>
-    <OldToolsVersion>2.0</OldToolsVersion>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <NativePlatformName>Windows Mobile 5.0 Smartphone SDK</NativePlatformName>
   </PropertyGroup>
   <PropertyGroup>
     <PlatformID>BD0CC567-F6FD-4ca3-99D2-063EFDFC0A39</PlatformID>
@@ -130,5 +136,6 @@
     <PostBuildEvent>
     </PostBuildEvent>
   </PropertyGroup>
+  <Import Condition="'$(TargetFrameworkVersion)' == 'v3.5'" Project="$(MSBuildBinPath)\Microsoft.CompactFramework.CSharp.targets" />
   <Import Condition="'$(TargetFrameworkVersion)' == 'v3.5'" Project="$(MSBuildBinPath)\Microsoft.CompactFramework.CSharp.targets" />
 </Project>
